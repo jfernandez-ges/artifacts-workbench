@@ -22,3 +22,19 @@ Lynemouth tiene el mismo problema, en tres turbinas 006, 013 y 002 suman 1382 re
 
 ![alt text](image-5.png)
 
+Fallo en anemómetro ese día
+
+![alt text](image-6.png)
+
+# Mark Hill
+Hay datos pero con dos turbinas con datos desproporcionados
+![alt text](image-7.png)
+
+MarkHill 023 y 011
+
+Muchos cambios de Change Pause Remote Control
+
+![alt text](image-8.png)
+
+
+__El día 28 algo ocurrio en el sistema se generaron muchos eventos para varías turbinas__

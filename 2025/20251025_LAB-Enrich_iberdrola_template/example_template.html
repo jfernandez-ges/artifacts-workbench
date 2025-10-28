@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPR Alarm Notification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .header {
+            background-color: #000;
+            color: #00ff00;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .subheader {
+            background-color: #000;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 18px;
+        }
+        .highlight {
+            color: #00ff00;
+            font-weight: bold;
+        }
+        .info-section {
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+        }
+        .info-box {
+            flex: 1;
+            border: 1px solid #ddd;
+            padding: 15px;
+        }
+        .info-box h3 {
+            margin-top: 0;
+            font-size: 14px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .info-row {
+            display: flex;
+            padding: 5px 0;
+        }
+        .info-label {
+            font-weight: bold;
+            width: 150px;
+        }
+        .info-value {
+            flex: 1;
+        }
+        .section-title {
+            background-color: #000;
+            color: white;
+            padding: 10px 20px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .events-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0;
+        }
+        .events-table th {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: left;
+            font-size: 12px;
+        }
+        .events-table td {
+            padding: 8px 10px;
+            border-bottom: 1px solid #ddd;
+            font-size: 11px;
+        }
+        .events-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .severity-warning {
+            color: #ff9800;
+            font-weight: bold;
+        }
+        .severity-error {
+            color: #f44336;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            SPR Alarm Notification
+        </div>
+        
+        <!-- Subheader -->
+        <div class="subheader">
+            Windfarm: <span class="highlight">Mark Hill</span> Turbine: <span class="highlight">T008</span>
+        </div>
+        
+        <!-- Details Section -->
+        <div class="info-section">
+            <div class="info-box">
+                <h3>Details</h3>
+                <div class="info-row">
+                    <span class="info-label">Windfarm:</span>
+                    <span class="info-value">Mark Hill</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Turbine:</span>
+                    <span class="info-value">T008</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Date:</span>
+                    <span class="info-value">2/28/2025</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Time:</span>
+                    <span class="info-value">10:22:00</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Error Code:</span>
+                    <span class="info-value">207</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Error Description:</span>
+                    <span class="info-value">Hydraulic Oil High Temperature</span>
+                </div>
+                <div style="margin-top: 15px;">
+                    <strong>Additional Information</strong>
+                    <div class="info-row">
+                        <span class="info-label">Windspeed:</span>
+                        <span class="info-value">10.79 m/s</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Status:</span>
+                        <span class="info-value">Available</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="info-box">
+                <h3>Alarm Reset Information</h3>
+                <div class="info-row">
+                    <span class="info-label">Reset Protocol:</span>
+                </div>
+                <div style="padding: 10px 0;">
+                    <p>Alarm resets after 5 minute pause, then to Local Reset</p>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Remote Restart Performed:</span>
+                    <span class="info-value">1</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Reset Result:</span>
+                </div>
+                <div style="padding: 10px 0;">
+                    <p>Turbine failed to recover following these attempts</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Related Active Events -->
+        <div class="section-title">Related Active Events and Alerts:</div>
+        <table class="events-table">
+            <thead>
+                <tr>
+                    <th>Created date</th>
+                    <th>Type</th>
+                    <th>Severity</th>
+                    <th>Message</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2/27/2025 10:18:58 +00:00</td>
+                    <td>AVAILABLE</td>
+                    <td class="severity-warning">NOTSTOPIMPACT</td>
+                    <td>Cannot set generation unit targeted to ARSOS</td>
+                </tr>
+                <tr>
+                    <td>2/27/2025 10:47:26 +01:00</td>
+                    <td>WARNING</td>
+                    <td class="severity-warning">NOTSTOPIMPACT</td>
+                    <td>2121 SPR Fail</td>
+                </tr>
+                <tr>
+                    <td>2/27/2025 10:47:26 +01:00</td>
+                    <td>WARNING</td>
+                    <td class="severity-warning">NOTSTOPIMPACT</td>
+                    <td>RV-PIAP Communication Failure</td>
+                </tr>
+                <tr>
+                    <td>2/24/2025 03:26:25 +01:00</td>
+                    <td>WARNING</td>
+                    <td class="severity-warning">NOTSTOPIMPACT</td>
+                    <td>121 W-cps Failure Warning</td>
+                </tr>
+                <tr>
+                    <td>2/24/2025 16:23:06 +01:00</td>
+                    <td>WARNING</td>
+                    <td class="severity-warning">NOTSTOPIMPACT</td>
+                    <td>2158 It-Esporor Temperature Sensor Failure</td>
+                </tr>
+                <tr>
+                    <td>1/8/8/2025 20:01:26 +01:00</td>
+                    <td>WARNING</td>
+                    <td class="severity-warning">NOTSTOPIMPACT</td>
+                    <td>176 CM-Ahm Hmsrio2 Failure Warning</td>
+                </tr>
+                <tr>
+                    <td>1/27/1/2025 17:04:15 +01:00</td>
+                    <td>WARNING</td>
+                    <td class="severity-warning">NOTSTOPIMPACT</td>
+                    <td>6032 E-NWC Sensor Warning</td>
+                </tr>
+                <tr>
+                    <td>1/27/1/2025 17:04:15 +01:00</td>
+                    <td>ERROR</td>
+                    <td class="severity-error">NOTSTOPIMPACT</td>
+                    <td>6000 Engine Overworked</td>
+                </tr>
+                <tr>
+                    <td>1/27/1/2025 17:04:15 +01:00</td>
+                    <td>ERROR</td>
+                    <td class="severity-error">NOTSTOPIMPACT</td>
+                    <td>UST Emergency</td>
+                </tr>
+                <tr>
+                    <td>1/27/1/2025 17:04:15 +01:00</td>
+                    <td>ERROR</td>
+                    <td class="severity-error">NOTSTOPIMPACT</td>
+                    <td>1002 70000 Application status is A02 YS or B-Out Corrected FPPEED Deactivation False or ABS VI</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <!-- Previous Events -->
+        <div class="section-title">Previous 20 Related Events and Alerts:</div>
+        <table class="events-table">
+            <thead>
+                <tr>
+                    <th>Created date</th>
+                    <th>End time</th>
+                    <th>Type</th>
+                    <th>Severity</th>
+                    <th>Message</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1/27/1/2025 13:22:27 +01:00</td>
+                    <td>1/27/1/2025 13:22:27 +01:00</td>
+                    <td>ARSOSNOTIFY</td>
+                    <td>TRACE</td>
+                    <td>T22 knee falute count drivers [0.2km 7]; WIMin: WatchValue=3.2km>(0.2,73,22)</td>
+                </tr>
+                <!-- Más filas... -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
