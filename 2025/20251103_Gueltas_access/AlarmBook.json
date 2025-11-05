@@ -1,0 +1,3021 @@
+{
+    "_id" : "6040bb2f8486075650f5535b",
+    "TenantId" : 8,
+    "TemplateId" : "6033c9b7d6e11709ce4d5c86",
+    "Technology" : "Gamesa",
+    "Name" : "GamesaG90",
+    "MappingClass" : "GamesaMapping",
+    "MappingContent" : {
+        "GamesaStatus" : "Status",
+        "AlarmPrefix" : "",
+        "StatusInfoMap" : {
+            "0" : {
+                "Text" : "Emergency",
+                "Status" : "Error",
+                "IecCategory" : null,
+                "ComponentName" : null
+            },
+            "25" : {
+                "Text" : "Stop",
+                "Status" : "Error",
+                "IecCategory" : null,
+                "ComponentName" : null
+            },
+            "50" : {
+                "Text" : "Pause",
+                "Status" : "ManualStop",
+                "IecCategory" : null,
+                "ComponentName" : null
+            },
+            "75" : {
+                "Text" : "Ready",
+                "Status" : "Available",
+                "IecCategory" : null,
+                "ComponentName" : null
+            },
+            "100" : {
+                "Text" : "Run",
+                "Status" : "Available",
+                "IecCategory" : null,
+                "ComponentName" : null
+            },
+            "125" : {
+                "Text" : "Manual",
+                "Status" : "Maintenance",
+                "IecCategory" : null,
+                "ComponentName" : null
+            }
+        },
+        "AlarmInfoMap" : {
+            "AlarmCode0000/0" : {
+                "Status" : "Available",
+                "Text" : "[0000] System OK",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS",
+                "AutoClose" : 1
+            },
+            "AlarmCode0001/0" : {
+                "Status" : "Error",
+                "Text" : "[0001] Vibration +",
+                "IecCategory" : "OUTOFENVIRONMENTALSPECIFICATION",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0005/0" : {
+                "Status" : "Error",
+                "Text" : "[0005] Vibration -",
+                "IecCategory" : "OUTOFENVIRONMENTALSPECIFICATION",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0007/0" : {
+                "Status" : "Available",
+                "Text" : "[0007] Turbine is serviced",
+                "IecCategory" : "SCHEDULEDMAINTENANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0009/0" : {
+                "Status" : "Available",
+                "Text" : "[0009] Remote stop",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0010/0" : {
+                "Status" : "Error",
+                "Text" : "[0010] Safety chain open",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0011/0" : {
+                "Status" : "Available",
+                "Text" : "[0011] Stop via communica.",
+                "IecCategory" : "REQUESTEDSHUTDOWN",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS",
+                "AutoClose" : 1
+            },
+            "AlarmCode0012/0" : {
+                "Status" : "Error",
+                "Text" : "[0012] dB operation",
+                "IecCategory" : "PARTIALPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0013/0" : {
+                "Status" : "Available",
+                "Text" : "[0013] Manual stop",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0016/0" : {
+                "Status" : "Error",
+                "Text" : "[0016] Emergency stop control cabinet",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0023/0" : {
+                "Status" : "Error",
+                "Text" : "[0023] Repeating error",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0026/0" : {
+                "Status" : "Available",
+                "Text" : "[0026] Manual control",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0029/0" : {
+                "Status" : "Available",
+                "Text" : "[0029] New program",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0030/0" : {
+                "Status" : "Available",
+                "Text" : "[0030] Nacelle temp.",
+                "IecCategory" : "OUTOFENVIRONMENTALSPECIFICATION",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0031/0" : {
+                "Status" : "Error",
+                "Text" : "[0031] Nacelle temp. Stop",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0036/0" : {
+                "Status" : "Error",
+                "Text" : "[0036] Reserve 1 temp.",
+                "IecCategory" : "OUTOFENVIRONMENTALSPECIFICATION",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0038/0" : {
+                "Status" : "Error",
+                "Text" : "[0038] Alarm call test",
+                "IecCategory" : "SCHEDULEDMAINTENANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0039/0" : {
+                "Status" : "Error",
+                "Text" : "[0039] Division by zero",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0040/0" : {
+                "Status" : "Error",
+                "Text" : "[0040] Parameter crash",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0042/0" : {
+                "Status" : "Error",
+                "Text" : "[0042] Internal battery low",
+                "IecCategory" : "INFORMATIONUNAVAILABLE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0043/0" : {
+                "Status" : "Error",
+                "Text" : "[0043] Internal temp. high",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0045/0" : {
+                "Status" : "Error",
+                "Text" : "[0045] Main ctrl. Supply",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0047/0" : {
+                "Status" : "Error",
+                "Text" : "[0047] Supply 156/157",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0048/0" : {
+                "Status" : "Error",
+                "Text" : "[0048] Supply 248/249",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0049/0" : {
+                "Status" : "Error",
+                "Text" : "[0049] Internal 15V supply",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0050/0" : {
+                "Status" : "Error",
+                "Text" : "[0050] Slave watchdog",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0051/0" : {
+                "Status" : "Error",
+                "Text" : "[0051] DSP watchdog",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0052/0" : {
+                "Status" : "Error",
+                "Text" : "[0052] WP3000 watchdog",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0054/0" : {
+                "Status" : "Error",
+                "Text" : "[0054] WP3000 manual reboot",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0057/0" : {
+                "Status" : "Error",
+                "Text" : "[0057] Batt. voltage stop",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0062/0" : {
+                "Status" : "Available",
+                "Text" : "[0062] Int.battery low sub1",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0073/0" : {
+                "Status" : "Error",
+                "Text" : "[0073] Power-up Relay",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0090/0" : {
+                "Status" : "Error",
+                "Text" : "[0090] Blade vibration stop",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0091/0" : {
+                "Status" : "Error",
+                "Text" : "[0091] Blade vibration error",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0092/0" : {
+                "Status" : "Error",
+                "Text" : "[0092] Emer. stop nacelle",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0095/0" : {
+                "Status" : "Error",
+                "Text" : "[0095] Battery test",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0096/0" : {
+                "Status" : "Error",
+                "Text" : "[0096] Sensor error vibration",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0097/0" : {
+                "Status" : "Error",
+                "Text" : "[0097] Fast stop",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0098/0" : {
+                "Status" : "Error",
+                "Text" : "[0098] Platform switch",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0099/0" : {
+                "Status" : "Available",
+                "Text" : "[0099] Parkmasterstop ",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0100/0" : {
+                "Status" : "Error",
+                "Text" : "[0100] Repeated grid error",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0102/0" : {
+                "Status" : "Available",
+                "Text" : "[0102] Phase drop",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0103/0" : {
+                "Status" : "Available",
+                "Text" : "[0103] Vector surge",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0110/0" : {
+                "Status" : "Available",
+                "Text" : "[0110] Voltage high",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0111/0" : {
+                "Status" : "Available",
+                "Text" : "[0111] Voltage low",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0118/0" : {
+                "Status" : "Error",
+                "Text" : "[0118] Park overproduction",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0120/0" : {
+                "Status" : "Available",
+                "Text" : "[0120] Frequency high",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0121/0" : {
+                "Status" : "Available",
+                "Text" : "[0121] Frequency low",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0128/0" : {
+                "Status" : "Available",
+                "Text" : "[0128] Transient grid error. Voltage dip",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0130/0" : {
+                "Status" : "Error",
+                "Text" : "[0130] L1-L2-L3 120 deg",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0131/0" : {
+                "Status" : "Error",
+                "Text" : "[0131] Cos.phi error",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0134/0" : {
+                "Status" : "Available",
+                "Text" : "[0134] Frequency critical",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0135/0" : {
+                "Status" : "Available",
+                "Text" : "[0135] EU Stop",
+                "IecCategory" : "REQUESTEDSHUTDOWN",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0138/0" : {
+                "Status" : "Available",
+                "Text" : "[0138] Grid param. warning",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0139/0" : {
+                "Status" : "Available",
+                "Text" : "[0139] Grid parameter stop",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0149/0" : {
+                "Status" : "Available",
+                "Text" : "[0149] Reactive comp. def.",
+                "IecCategory" : "PARTIALPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0150/0" : {
+                "Status" : "Error",
+                "Text" : "[0150] Trafo switch tripped",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0151/0" : {
+                "Status" : "Error",
+                "Text" : "[0151] MV transm. Tripped",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0156/0" : {
+                "Status" : "Error",
+                "Text" : "[0156] Grid error",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0200/0" : {
+                "Status" : "Available",
+                "Text" : "[0200] Outdoor temp. low",
+                "IecCategory" : "OUTOFENVIRONMENTALSPECIFICATION",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0201/0" : {
+                "Status" : "Available",
+                "Text" : "[0201] Outdoor temp. high",
+                "IecCategory" : "OUTOFENVIRONMENTALSPECIFICATION",
+                "ComponentName" : "NACELLE ELECTRICAL ELEMENTS"
+            },
+            "AlarmCode0202/0" : {
+                "Status" : "Error",
+                "Text" : "[0202] Wind < power",
+                "IecCategory" : "PARTIALPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0203/0" : {
+                "Status" : "Error",
+                "Text" : "[0203] Wind > power",
+                "IecCategory" : "PARTIALPERFORMANCE",
+                "ComponentName" : "WIND SENSORS AND AIR TRAFFIC LIGHTS"
+            },
+            "AlarmCode0204/0" : {
+                "Status" : "Available",
+                "Text" : "[0204] Free wheel->cut in G",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0205/0" : {
+                "Status" : "Available",
+                "Text" : "[0205] Tower resonance time",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "WIND SENSORS AND AIR TRAFFIC LIGHTS"
+            },
+            "AlarmCode0206/0" : {
+                "Status" : "Available",
+                "Text" : "[0206] Ice warning",
+                "IecCategory" : "OUTOFENVIRONMENTALSPECIFICATION",
+                "ComponentName" : "WIND SENSORS AND AIR TRAFFIC LIGHTS"
+            },
+            "AlarmCode0207/0" : {
+                "Status" : "Error",
+                "Text" : "[0207] Ice detector error",
+                "IecCategory" : "OUTOFENVIRONMENTALSPECIFICATION",
+                "ComponentName" : "WIND SENSORS AND AIR TRAFFIC LIGHTS"
+            },
+            "AlarmCode0210/0" : {
+                "Status" : "Error",
+                "Text" : "[0210] Anemom. iced over",
+                "IecCategory" : "OUTOFENVIRONMENTALSPECIFICATION",
+                "ComponentName" : "WIND SENSORS AND AIR TRAFFIC LIGHTS"
+            },
+            "AlarmCode0213/0" : {
+                "Status" : "Error",
+                "Text" : "[0213] Extreme Gust",
+                "IecCategory" : "OUTOFENVIRONMENTALSPECIFICATION",
+                "ComponentName" : "WIND SENSORS AND AIR TRAFFIC LIGHTS"
+            },
+            "AlarmCode0214/0" : {
+                "Status" : "Error",
+                "Text" : "[0214] <3 ◦ C wind vane still",
+                "IecCategory" : "PARTIALPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0215/0" : {
+                "Status" : "Available",
+                "Text" : "[0215] Wind direction »45◦",
+                "IecCategory" : "PARTIALPERFORMANCE",
+                "ComponentName" : "WIND SENSORS AND AIR TRAFFIC LIGHTS"
+            },
+            "AlarmCode0216/0" : {
+                "Status" : "Error",
+                "Text" : "[0216] Wind >> for DB oper.",
+                "IecCategory" : "PARTIALPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0218/0" : {
+                "Status" : "Error",
+                "Text" : "[0218] Wind vane defect",
+                "IecCategory" : "PARTIALPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0220/0" : {
+                "Status" : "Error",
+                "Text" : "[0220] W.direc.nonidentical",
+                "IecCategory" : "PARTIALPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0221/0" : {
+                "Status" : "Error",
+                "Text" : "[0221] W.direc.nonidentical",
+                "IecCategory" : "PARTIALPERFORMANCE",
+                "ComponentName" : "GEARBOX GENERIC"
+            },
+            "AlarmCode0223/0" : {
+                "Status" : "Error",
+                "Text" : "[0223] Wind vane def. R/L",
+                "IecCategory" : "PARTIALPERFORMANCE",
+                "ComponentName" : "MAIN SHAFT AND ROTOR BEARING"
+            },
+            "AlarmCode0224/0" : {
+                "Status" : "Error",
+                "Text" : "[0224] Wind gauge R out",
+                "IecCategory" : "PARTIALPERFORMANCE",
+                "ComponentName" : "GENERATOR"
+            },
+            "AlarmCode0225/0" : {
+                "Status" : "Error",
+                "Text" : "[0225] Wind gauge L out",
+                "IecCategory" : "PARTIALPERFORMANCE",
+                "ComponentName" : "GENERATOR"
+            },
+            "AlarmCode0226/0" : {
+                "Status" : "Error",
+                "Text" : "[0226] Wind gauge defect",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "GENERATOR"
+            },
+            "AlarmCode0227/0" : {
+                "Status" : "Error",
+                "Text" : "[0227] Anemometer defect",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "MAIN SHAFT AND ROTOR BEARING"
+            },
+            "AlarmCode0240/0" : {
+                "Status" : "Available",
+                "Text" : "[0240] Awaiting wind",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "GENERATOR"
+            },
+            "AlarmCode0250/0" : {
+                "Status" : "Available",
+                "Text" : "[0250] Wind > max.",
+                "IecCategory" : "PARTIALPERFORMANCE",
+                "ComponentName" : "MAIN SHAFT AND ROTOR BEARING"
+            },
+            "AlarmCode0251/0" : {
+                "Status" : "Available",
+                "Text" : "[0251] Wind >> max.",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0252/0" : {
+                "Status" : "Error",
+                "Text" : "[0252] Wind>max. and low temp",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0257/0" : {
+                "Status" : "Error",
+                "Text" : "[0257] Trudel rpm <> wind",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0258/0" : {
+                "Status" : "Available",
+                "Text" : "[0258] Pitch angle>max.wind",
+                "IecCategory" : "PARTIALPERFORMANCE",
+                "ComponentName" : "YAW SYSTEM"
+            },
+            "AlarmCode0300/0" : {
+                "Status" : "Error",
+                "Text" : "[0300] (G) tacho defect",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "BASEMENT AND TOWER"
+            },
+            "AlarmCode0301/0" : {
+                "Status" : "Error",
+                "Text" : "[0301] Cut in overspeed",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "YAW SYSTEM"
+            },
+            "AlarmCode0302/0" : {
+                "Status" : "Error",
+                "Text" : "[0302] (R) tacho defect",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "YAW SYSTEM"
+            },
+            "AlarmCode0305/0" : {
+                "Status" : "Error",
+                "Text" : "[0305] Running away",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "YAW SYSTEM"
+            },
+            "AlarmCode0306/0" : {
+                "Status" : "Error",
+                "Text" : "[0306] Running away 1",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "YAW SYSTEM"
+            },
+            "AlarmCode0307/0" : {
+                "Status" : "Error",
+                "Text" : "[0307] Running away 2",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "BASEMENT AND TOWER"
+            },
+            "AlarmCode0308/0" : {
+                "Status" : "Error",
+                "Text" : "[0308] Running away 3",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "YAW SYSTEM"
+            },
+            "AlarmCode0310/0" : {
+                "Status" : "Error",
+                "Text" : "[0310] Gear overspeed",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "HYDRAULIC SYSTEM"
+            },
+            "AlarmCode0311/0" : {
+                "Status" : "Error",
+                "Text" : "[0311] Rotor overspeed",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "HYDRAULIC SYSTEM"
+            },
+            "AlarmCode0312/0" : {
+                "Status" : "Error",
+                "Text" : "[0312] (G) overspeed",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "GEARBOX GENERIC"
+            },
+            "AlarmCode0313/0" : {
+                "Status" : "Error",
+                "Text" : "[0313] (R) 1 <> (R) 2 RPM",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0314/0" : {
+                "Status" : "Error",
+                "Text" : "[0314] Trudel overspeed",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "YAW SYSTEM"
+            },
+            "AlarmCode0315/0" : {
+                "Status" : "Error",
+                "Text" : "[0315] Overspeed 1",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "YAW SYSTEM"
+            },
+            "AlarmCode0316/0" : {
+                "Status" : "Error",
+                "Text" : "[0316] Overspeed 2",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "HYDRAULIC SYSTEM"
+            },
+            "AlarmCode0317/0" : {
+                "Status" : "Error",
+                "Text" : "[0317] Rotor overspeed max.",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "BASEMENT AND TOWER"
+            },
+            "AlarmCode0318/0" : {
+                "Status" : "Error",
+                "Text" : "[0318] WP2035 Getr.überdreh",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "YAW SYSTEM"
+            },
+            "AlarmCode0319/0" : {
+                "Status" : "Error",
+                "Text" : "[0319] WP2035 (G) overspeed",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0320/0" : {
+                "Status" : "Error",
+                "Text" : "[0320] WP2035 (R) overspeed",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "BASEMENT AND TOWER"
+            },
+            "AlarmCode0321/0" : {
+                "Status" : "Error",
+                "Text" : "[0321] Rotating direc.rotor",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "BASEMENT AND TOWER"
+            },
+            "AlarmCode0322/0" : {
+                "Status" : "Error",
+                "Text" : "[0322] Sensor error rpm",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "MAIN SHAFT AND ROTOR BEARING"
+            },
+            "AlarmCode0323/0" : {
+                "Status" : "Error",
+                "Text" : "[0323] Ext. rotor overspeed",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "ROTOR HUB"
+            },
+            "AlarmCode0328/0" : {
+                "Status" : "Error",
+                "Text" : "[0328] Gear overspeed max.",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "ROTOR HUB"
+            },
+            "AlarmCode0330/0" : {
+                "Status" : "Error",
+                "Text" : "[0330] Rpm <> window",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "ROTOR HUB"
+            },
+            "AlarmCode0402/0" : {
+                "Status" : "Error",
+                "Text" : "[0402] Tip brake press.high",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "ROTOR BLADES"
+            },
+            "AlarmCode0403/0" : {
+                "Status" : "Error",
+                "Text" : "[0403] Tip brake press. low",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "ROTOR BLADES"
+            },
+            "AlarmCode0413/0" : {
+                "Status" : "Error",
+                "Text" : "[0413] (H) brake press.high",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "MAIN SHAFT AND ROTOR BEARING"
+            },
+            "AlarmCode0415/0" : {
+                "Status" : "Available",
+                "Text" : "[0415] Brake pads worn",
+                "IecCategory" : "PARTIALPERFORMANCE",
+                "ComponentName" : "MAIN SHAFT AND ROTOR BEARING"
+            },
+            "AlarmCode0416/0" : {
+                "Status" : "Error",
+                "Text" : "[0416] Replace brake pads",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "MAIN SHAFT AND ROTOR BEARING"
+            },
+            "AlarmCode0420/0" : {
+                "Status" : "Error",
+                "Text" : "[0420] Brakin.time too long",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "MAIN SHAFT AND ROTOR BEARING"
+            },
+            "AlarmCode0421/0" : {
+                "Status" : "Error",
+                "Text" : "[0421] Brake not released",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "MAIN SHAFT AND ROTOR BEARING"
+            },
+            "AlarmCode0422/0" : {
+                "Status" : "Error",
+                "Text" : "[0422] Therm.relay brake(H)",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "MAIN SHAFT AND ROTOR BEARING"
+            },
+            "AlarmCode0424/0" : {
+                "Status" : "Error",
+                "Text" : "[0424] Brake control",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "MAIN SHAFT AND ROTOR BEARING"
+            },
+            "AlarmCode0426/0" : {
+                "Status" : "Error",
+                "Text" : "[0426] Tip valve",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "MAIN SHAFT AND ROTOR BEARING"
+            },
+            "AlarmCode0429/0" : {
+                "Status" : "Error",
+                "Text" : "[0429] (B) Feedback",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "MAIN SHAFT AND ROTOR BEARING"
+            },
+            "AlarmCode0431/0" : {
+                "Status" : "Error",
+                "Text" : "[0431] B50 brake time > max",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "MAIN SHAFT AND ROTOR BEARING"
+            },
+            "AlarmCode0430/0" : {
+                "Status" : "Error",
+                "Text" : "[0430] Manuell. (R) brake",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "MAIN SHAFT AND ROTOR BEARING"
+            },
+            "AlarmCode0432/0" : {
+                "Status" : "Error",
+                "Text" : "[0432] B51 Brake time > max",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "MAIN SHAFT AND ROTOR BEARING"
+            },
+            "AlarmCode0433/0" : {
+                "Status" : "Error",
+                "Text" : "[0433] B199 Brake time > max",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "MAIN SHAFT AND ROTOR BEARING"
+            },
+            "AlarmCode0434/0" : {
+                "Status" : "Error",
+                "Text" : "[0434] B200 Brake time > max",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0435/0" : {
+                "Status" : "Error",
+                "Text" : "[0435] Tip (P) feedback ",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0436/0" : {
+                "Status" : "Error",
+                "Text" : "[0436] Tip (V) feedback",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0437/0" : {
+                "Status" : "Error",
+                "Text" : "[0437] Tip(P) oper.time>max",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0438/0" : {
+                "Status" : "Error",
+                "Text" : "[0438] Tip (P)starting rate",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0439/0" : {
+                "Status" : "Error",
+                "Text" : "[0439] Brake valve error",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0440/0" : {
+                "Status" : "Error",
+                "Text" : "[0440] (B)(P) starting rate",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0442/0" : {
+                "Status" : "Error",
+                "Text" : "[0442] Tip (H) sensor def.",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0444/0" : {
+                "Status" : "Error",
+                "Text" : "[0444] Tip service switch",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0448/0" : {
+                "Status" : "Error",
+                "Text" : "[0448] B75 brake time > max",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0449/0" : {
+                "Status" : "Error",
+                "Text" : "[0449] (B)(H) sensor defect",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0451/0" : {
+                "Status" : "Available",
+                "Text" : "[0451] Manual brake",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0452/0" : {
+                "Status" : "Error",
+                "Text" : "[0452] Brake temp.",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0455/0" : {
+                "Status" : "Error",
+                "Text" : "[0455] (B) feedback 2",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "YAW SYSTEM"
+            },
+            "AlarmCode0475/0" : {
+                "Status" : "Error",
+                "Text" : "[0475] Tip (V) Test error",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "YAW SYSTEM"
+            },
+            "AlarmCode0490/0" : {
+                "Status" : "Error",
+                "Text" : "[0490] B180 brake time>max. ",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "HYDRAULIC SYSTEM"
+            },
+            "AlarmCode0491/0" : {
+                "Status" : "Error",
+                "Text" : "[0491] B190 brake time>max. ",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "SPINNER"
+            },
+            "AlarmCode0494/0" : {
+                "Status" : "Error",
+                "Text" : "[0494] B60 brake time>max. ",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "SPINNER"
+            },
+            "AlarmCode0495/0" : {
+                "Status" : "Error",
+                "Text" : "[0495] B52 brake time>max. ",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "HYDRAULIC SYSTEM"
+            },
+            "AlarmCode0500/0" : {
+                "Status" : "Error",
+                "Text" : "[0500] (G)heat error repeat",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "HYDRAULIC SYSTEM"
+            },
+            "AlarmCode0501/0" : {
+                "Status" : "Error",
+                "Text" : "[0501] Power comsumption",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "HYDRAULIC SYSTEM"
+            },
+            "AlarmCode0510/0" : {
+                "Status" : "Error",
+                "Text" : "[0510] Thermistor G1 Stator",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "GENERATOR"
+            },
+            "AlarmCode0511/0" : {
+                "Status" : "Error",
+                "Text" : "[0511] Thermistor G2 Stator",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "GENERATOR"
+            },
+            "AlarmCode0512/0" : {
+                "Status" : "Error",
+                "Text" : "[0512] (G)Thermistor defekt",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "GENERATOR"
+            },
+            "AlarmCode0513/0" : {
+                "Status" : "Available",
+                "Text" : "[0513] G1 stator temp.",
+                "IecCategory" : "PARTIALPERFORMANCE",
+                "ComponentName" : "GENERATOR"
+            },
+            "AlarmCode0514/0" : {
+                "Status" : "Error",
+                "Text" : "[0514] G1 stator temp. stop",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "GENERATOR"
+            },
+            "AlarmCode0515/0" : {
+                "Status" : "Error",
+                "Text" : "[0515] G2 stator temp.",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "GENERATOR"
+            },
+            "AlarmCode0516/0" : {
+                "Status" : "Error",
+                "Text" : "[0516] G2 stator temp. stop",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "GENERATOR"
+            },
+            "AlarmCode0522/0" : {
+                "Status" : "Error",
+                "Text" : "[0522] (G) cooler feedback",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "GENERATOR"
+            },
+            "AlarmCode0523/0" : {
+                "Status" : "Error",
+                "Text" : "[0523] G1 feedback",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "GENERATOR"
+            },
+            "AlarmCode0524/0" : {
+                "Status" : "Error",
+                "Text" : "[0524] G2 feedback",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "GENERATOR"
+            },
+            "AlarmCode0525/0" : {
+                "Status" : "Error",
+                "Text" : "[0525] (G) bypass feedback",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0526/0" : {
+                "Status" : "Available",
+                "Text" : "[0526] (G) bearing 1 temp.",
+                "IecCategory" : "PARTIALPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0527/0" : {
+                "Status" : "Error",
+                "Text" : "[0527] (G)bear.1 temp. Stop",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0528/0" : {
+                "Status" : "Available",
+                "Text" : "[0528] (G) bearing 2 temp.",
+                "IecCategory" : "PARTIALPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0529/0" : {
+                "Status" : "Error",
+                "Text" : "[0529] (G)bear.2 temp. Stop",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0530/0" : {
+                "Status" : "Error",
+                "Text" : "[0530] (G) power too high",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0537/0" : {
+                "Status" : "Error",
+                "Text" : "[0537] (G) peak power",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0550/0" : {
+                "Status" : "Error",
+                "Text" : "[0550] (G) peak power max.",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0551/0" : {
+                "Status" : "Error",
+                "Text" : "[0551] G1 blocked",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0553/0" : {
+                "Status" : "Error",
+                "Text" : "[0553] (G)Wear filter",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0554/0" : {
+                "Status" : "Error",
+                "Text" : "[0554] (G)Brushes worn",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0555/0" : {
+                "Status" : "Error",
+                "Text" : "[0555] (G)Wear filter stop",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0568/0" : {
+                "Status" : "Error",
+                "Text" : "[0568] DB G1>>G2",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0600/0" : {
+                "Status" : "Error",
+                "Text" : "[0600] Main switch off",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0601/0" : {
+                "Status" : "Error",
+                "Text" : "[0601] Current asymmetry",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0602/0" : {
+                "Status" : "Error",
+                "Text" : "[0602] Lightning prot. def.",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0608/0" : {
+                "Status" : "Error",
+                "Text" : "[0608] Trafo cut off",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0620/0" : {
+                "Status" : "Error",
+                "Text" : "[0620] WP2060 error",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0646/0" : {
+                "Status" : "Error",
+                "Text" : "[0646] Cut in not allowed",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0650/0" : {
+                "Status" : "Error",
+                "Text" : "[0650] Cut in 0_>G2",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0651/0" : {
+                "Status" : "Available",
+                "Text" : "[0651] Cut in 0_>G1",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0652/0" : {
+                "Status" : "Error",
+                "Text" : "[0652] Cut in G1>G2",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0654/0" : {
+                "Status" : "Error",
+                "Text" : "[0654] Main switch man. out",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0660/0" : {
+                "Status" : "Error",
+                "Text" : "[0660] G1>G2 overspeed",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0661/0" : {
+                "Status" : "Error",
+                "Text" : "[0661] G1>G2 brake time>max",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0700/0" : {
+                "Status" : "Error",
+                "Text" : "[0700] Error by yawing",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0701/0" : {
+                "Status" : "Error",
+                "Text" : "[0701] Rep. error by yawing",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0706/0" : {
+                "Status" : "Error",
+                "Text" : "[0706] Yaw CCW feedback",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0707/0" : {
+                "Status" : "Error",
+                "Text" : "[0707] Yaw CW feedback",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0715/0" : {
+                "Status" : "Available",
+                "Text" : "[0715] Cable autounwind",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0718/0" : {
+                "Status" : "Error",
+                "Text" : "[0718] (H)yaw pressure high",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0719/0" : {
+                "Status" : "Error",
+                "Text" : "[0719] (H)yaw(M)therm.relay",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0720/0" : {
+                "Status" : "Error",
+                "Text" : "[0720] Yaw brake press. low",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0722/0" : {
+                "Status" : "Error",
+                "Text" : "[0722] Cable twisted",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0725/0" : {
+                "Status" : "Error",
+                "Text" : "[0725] Yaw(M)therm.relay123",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0726/0" : {
+                "Status" : "Error",
+                "Text" : "[0726] Yaw(M) therm.relay 1",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0727/0" : {
+                "Status" : "Error",
+                "Text" : "[0727] Yaw(M) therm.relay 2",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0728/0" : {
+                "Status" : "Error",
+                "Text" : "[0728] Yaw(M) therm.relay 3",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0729/0" : {
+                "Status" : "Error",
+                "Text" : "[0729] Yaw brake feedback",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0730/0" : {
+                "Status" : "Error",
+                "Text" : "[0730] Yaw sensor defect",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0731/0" : {
+                "Status" : "Error",
+                "Text" : "[0731] Yaw(P) starting rate",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0732/0" : {
+                "Status" : "Error",
+                "Text" : "[0732] Manual yaw",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0733/0" : {
+                "Status" : "Error",
+                "Text" : "[0733] Yaw(P) oper.time>max",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0739/0" : {
+                "Status" : "Error",
+                "Text" : "[0739] Yaw brake not open",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0742/0" : {
+                "Status" : "Error",
+                "Text" : "[0742] Yaw sensor A/B",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0743/0" : {
+                "Status" : "Error",
+                "Text" : "[0743] Yaw motor contactor",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0744/0" : {
+                "Status" : "Error",
+                "Text" : "[0744] Yaw (M) RM",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0745/0" : {
+                "Status" : "Error",
+                "Text" : "[0745] Autoentdr. Blockier.",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0746/0" : {
+                "Status" : "Error",
+                "Text" : "[0746] Azimutmotorschütz3+4",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0747/0" : {
+                "Status" : "Error",
+                "Text" : "[0747] Yaw(B) therm. Relay",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0750/0" : {
+                "Status" : "Error",
+                "Text" : "[0750] Yaw(M)therm.relay1+3",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0751/0" : {
+                "Status" : "Error",
+                "Text" : "[0751] Yaw(M)therm.relay2+4",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0752/0" : {
+                "Status" : "Error",
+                "Text" : "[0752] Yaw(M) therm.relay 4",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0753/0" : {
+                "Status" : "Error",
+                "Text" : "[0753] Yaw rim cold",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0754/0" : {
+                "Status" : "Error",
+                "Text" : "[0754] Yaw rim hot",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0756/0" : {
+                "Status" : "Error",
+                "Text" : "[0756] Yaw (H) press.sensor",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0777/0" : {
+                "Status" : "Error",
+                "Text" : "[0777] Check nacelle pos.",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0778/0" : {
+                "Status" : "Error",
+                "Text" : "[0778] Nacelle pos. Stop",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0800/0" : {
+                "Status" : "Error",
+                "Text" : "[0800] Capacitor feedback",
+                "IecCategory" : "OUTOFELECTRICALSPEC",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0801/0" : {
+                "Status" : "Error",
+                "Text" : "[0801] Capacitor 1 feedback",
+                "IecCategory" : "OUTOFELECTRICALSPEC",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0802/0" : {
+                "Status" : "Error",
+                "Text" : "[0802] Capacitor 2 feedback",
+                "IecCategory" : "OUTOFELECTRICALSPEC",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0803/0" : {
+                "Status" : "Error",
+                "Text" : "[0803] Capacitor 3 feedback",
+                "IecCategory" : "OUTOFELECTRICALSPEC",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0804/0" : {
+                "Status" : "Error",
+                "Text" : "[0804] Capacitor 4 feedback",
+                "IecCategory" : "OUTOFELECTRICALSPEC",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0805/0" : {
+                "Status" : "Error",
+                "Text" : "[0805] Capacitor 5 feedback",
+                "IecCategory" : "OUTOFELECTRICALSPEC",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0806/0" : {
+                "Status" : "Error",
+                "Text" : "[0806] Capacitor 6 feedback",
+                "IecCategory" : "OUTOFELECTRICALSPEC",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0807/0" : {
+                "Status" : "Error",
+                "Text" : "[0807] Capacitor 7 feedback",
+                "IecCategory" : "OUTOFELECTRICALSPEC",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0808/0" : {
+                "Status" : "Error",
+                "Text" : "[0808] Capacitor 8 feedback",
+                "IecCategory" : "OUTOFELECTRICALSPEC",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0904/0" : {
+                "Status" : "Error",
+                "Text" : "[0904] Therm.(G) cool. pump",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0906/0" : {
+                "Status" : "Error",
+                "Text" : "[0906] Therm. gear oil pump",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0918/0" : {
+                "Status" : "Error",
+                "Text" : "[0918] Fan(G)ext.term.relay",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0919/0" : {
+                "Status" : "Error",
+                "Text" : "[0919] Gear fan therm.relay",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0920/0" : {
+                "Status" : "Error",
+                "Text" : "[0920] Gearheat.therm.relay",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode0936/0" : {
+                "Status" : "Error",
+                "Text" : "[0936] (G)fan 2.term. relay",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1000/0" : {
+                "Status" : "Available",
+                "Text" : "[1000] No park communica.",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1007/0" : {
+                "Status" : "Available",
+                "Text" : "[1007] No park communica.",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1010/0" : {
+                "Status" : "Available",
+                "Text" : "[1010] Communic.err.mn_>sb1",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1011/0" : {
+                "Status" : "Available",
+                "Text" : "[1011] Communic.err.sb1_>mn",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1113/0" : {
+                "Status" : "Error",
+                "Text" : "[1113] Pitch angle diff.",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1121/0" : {
+                "Status" : "Error",
+                "Text" : "[1121] Pitch too slow",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1130/0" : {
+                "Status" : "Error",
+                "Text" : "[1130] Pitch endstop switch",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1131/0" : {
+                "Status" : "Error",
+                "Text" : "[1131] Pitch angle 1",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1132/0" : {
+                "Status" : "Error",
+                "Text" : "[1132] Pitch angle 2",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1133/0" : {
+                "Status" : "Error",
+                "Text" : "[1133] Pitch angle 3",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1147/0" : {
+                "Status" : "Error",
+                "Text" : "[1147] Pitch motor Temp. 1",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1148/0" : {
+                "Status" : "Error",
+                "Text" : "[1148] Pitch motor Temp. 2",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1149/0" : {
+                "Status" : "Error",
+                "Text" : "[1149] Pitch motor Temp. 3",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1150/0" : {
+                "Status" : "Error",
+                "Text" : "[1150] Pitch 1 current > max.",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1151/0" : {
+                "Status" : "Error",
+                "Text" : "[1151] Pitch 2 current > max.",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1152/0" : {
+                "Status" : "Error",
+                "Text" : "[1152] Pitch 3 current > max.",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1153/0" : {
+                "Status" : "Error",
+                "Text" : "[1153] Pitch 1 current Fehler",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1154/0" : {
+                "Status" : "Error",
+                "Text" : "[1154] Pitch 2 current Fehler",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1155/0" : {
+                "Status" : "Error",
+                "Text" : "[1155] Pitch 3 current Fehler",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1156/0" : {
+                "Status" : "Error",
+                "Text" : "[1156] Pitch (M) current asym.",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1157/0" : {
+                "Status" : "Available",
+                "Text" : "[1157] Pitch ctrl.communic.",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1158/0" : {
+                "Status" : "Error",
+                "Text" : "[1158] Pitch controller error",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1159/0" : {
+                "Status" : "Error",
+                "Text" : "[1159] Pitch <> endstop",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1161/0" : {
+                "Status" : "Error",
+                "Text" : "[1161] Pitch error",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1162/0" : {
+                "Status" : "Error",
+                "Text" : "[1162] Pitch quick stop",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1163/0" : {
+                "Status" : "Error",
+                "Text" : "[1163] Pitch motor speed high",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1166/0" : {
+                "Status" : "Error",
+                "Text" : "[1166] Pitchmeas.sys. 1<>2",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1170/0" : {
+                "Status" : "Available",
+                "Text" : "[1170] Pitch(M) sub2 temp 1",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1171/0" : {
+                "Status" : "Available",
+                "Text" : "[1171] Pitch (M) sub2 temp 2",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1172/0" : {
+                "Status" : "Available",
+                "Text" : "[1172] Pitch (M)  sub 2 temp 3",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1173/0" : {
+                "Status" : "Error",
+                "Text" : "[1173] Th.rel.pitch(M) fan",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1174/0" : {
+                "Status" : "Error",
+                "Text" : "[1174] Pitch (M) anchor contactor",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1175/0" : {
+                "Status" : "Error",
+                "Text" : "[1175] Pitch bat. Charger",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1176/0" : {
+                "Status" : "Error",
+                "Text" : "[1176] Pitch bat.chargecyc. ",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1182/0" : {
+                "Status" : "Error",
+                "Text" : "[1182] Batt.voltage 1 stop",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1184/0" : {
+                "Status" : "Error",
+                "Text" : "[1184] Batt.voltage 1 stop",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1186/0" : {
+                "Status" : "Error",
+                "Text" : "[1186] Batt.voltage 1 stop",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1188/0" : {
+                "Status" : "Error",
+                "Text" : "[1188] 1166 for 24h",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1198/0" : {
+                "Status" : "Error",
+                "Text" : "[1198] Hub is too hot",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1199/0" : {
+                "Status" : "Error",
+                "Text" : "[1199] Pitch(M) sub2 temp.",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1200/0" : {
+                "Status" : "Error",
+                "Text" : "[1200] (H) pressure error",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1201/0" : {
+                "Status" : "Error",
+                "Text" : "[1201] (H) oil level low",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1207/0" : {
+                "Status" : "Error",
+                "Text" : "[1207] (H) Motorschütz",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1213/0" : {
+                "Status" : "Error",
+                "Text" : "[1213] (H) oper.time > max.",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1214/0" : {
+                "Status" : "Error",
+                "Text" : "[1214] (H) oper.time < max.",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1223/0" : {
+                "Status" : "Error",
+                "Text" : "[1223] (H)sys. press. High",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1224/0" : {
+                "Status" : "Error",
+                "Text" : "[1224] (H)sys. press. Low",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1244/0" : {
+                "Status" : "Error",
+                "Text" : "[1244] (R)bear.lubric.th.r.",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1300/0" : {
+                "Status" : "Error",
+                "Text" : "[1300] Gear oil filt.choked",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1306/0" : {
+                "Status" : "Error",
+                "Text" : "[1306] Gear oil press. Low",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1307/0" : {
+                "Status" : "Error",
+                "Text" : "[1307] Gear oil temp.",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1309/0" : {
+                "Status" : "Error",
+                "Text" : "[1309] Gear oil(P) feedback",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1310/0" : {
+                "Status" : "Available",
+                "Text" : "[1310] Gear sec.filt.choked",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1311/0" : {
+                "Status" : "Error",
+                "Text" : "[1311] Coupling (G) gearbox",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1317/0" : {
+                "Status" : "Error",
+                "Text" : "[1317] Gear bearing temp.",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1323/0" : {
+                "Status" : "Available",
+                "Text" : "[1323] Gear bearing temp. 1",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1324/0" : {
+                "Status" : "Error",
+                "Text" : "[1324] Gear bear.temp.1stop",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1325/0" : {
+                "Status" : "Available",
+                "Text" : "[1325] Gear bearing temp. 2",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1326/0" : {
+                "Status" : "Error",
+                "Text" : "[1326] Gear bear.temp.2stop",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1327/0" : {
+                "Status" : "Error",
+                "Text" : "[1327] Gear oil temp. High",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1328/0" : {
+                "Status" : "Error",
+                "Text" : "[1328] Gear oil temp. Low",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1332/0" : {
+                "Status" : "Error",
+                "Text" : "[1332] Gear oil(P)therm.",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1337/0" : {
+                "Status" : "Error",
+                "Text" : "[1337] Gear oil press. High",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1338/0" : {
+                "Status" : "Error",
+                "Text" : "[1338] Gear oil press.error",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1339/0" : {
+                "Status" : "Error",
+                "Text" : "[1339] Gear oil fil.1 chok.",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1345/0" : {
+                "Status" : "Error",
+                "Text" : "[1345] (M)Th.relay sec.filter",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1350/0" : {
+                "Status" : "Error",
+                "Text" : "[1350] Gear pressure FB",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1355/0" : {
+                "Status" : "Error",
+                "Text" : "[1355] Missing gear oil",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1396/0" : {
+                "Status" : "Error",
+                "Text" : "[1396] Check gear oil 1",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1397/0" : {
+                "Status" : "Error",
+                "Text" : "[1397] Check gear oil 2",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1401/0" : {
+                "Status" : "Error",
+                "Text" : "[1401] Freq.conv. not ready",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1404/0" : {
+                "Status" : "Available",
+                "Text" : "[1404] Freq.conv. emer.stop",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1406/0" : {
+                "Status" : "Error",
+                "Text" : "[1406] Freq. conv. grid error",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1409/0" : {
+                "Status" : "Error",
+                "Text" : "[1409] Freq. conv. error",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1411/0" : {
+                "Status" : "Error",
+                "Text" : "[1411] Freq.conv.overspeed",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1415/0" : {
+                "Status" : "Error",
+                "Text" : "[1415] Freq.conv. <> sync.",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1416/0" : {
+                "Status" : "Available",
+                "Text" : "[1416] Freq.conv.<>workinga",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1499/0" : {
+                "Status" : "Available",
+                "Text" : "[1499] Inlet air conv. Hot",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1504/0" : {
+                "Status" : "Error",
+                "Text" : "[1504] Blade vibr.warning",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1509/0" : {
+                "Status" : "Error",
+                "Text" : "[1509] WP4084 chan. 1 alarm",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1510/0" : {
+                "Status" : "Error",
+                "Text" : "[1510] WP4084 chan. 2 alarm",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1511/0" : {
+                "Status" : "Error",
+                "Text" : "[1511] WP4084 chan. 1 def. ",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1512/0" : {
+                "Status" : "Error",
+                "Text" : "[1512] WP4084 chan. 2 def. ",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1513/0" : {
+                "Status" : "Error",
+                "Text" : "[1513] WP4048 comm. error",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1533/0" : {
+                "Status" : "Error",
+                "Text" : "[1533] WP3033 watchdog",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1534/0" : {
+                "Status" : "Available",
+                "Text" : "[1534] Sub1 manual reboot",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1535/0" : {
+                "Status" : "Error",
+                "Text" : "[1535] Supply Sub1",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1537/0" : {
+                "Status" : "Available",
+                "Text" : "[1537] FPGA error sub1",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1539/0" : {
+                "Status" : "Error",
+                "Text" : "[1539] WP4084#1 CH1 level 1",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1540/0" : {
+                "Status" : "Error",
+                "Text" : "[1540] T.out selftest no. 1",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1541/0" : {
+                "Status" : "Available",
+                "Text" : "[1541] Night operation",
+                "IecCategory" : "PARTIALPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1542/0" : {
+                "Status" : "Error",
+                "Text" : "[1542] Axis box temp. high",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1544/0" : {
+                "Status" : "Error",
+                "Text" : "[1544] PT 100 defective",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1554/0" : {
+                "Status" : "Error",
+                "Text" : "[1554] Invalid parameter",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1555/0" : {
+                "Status" : "Error",
+                "Text" : "[1555] WP4048#1 CH2 level 1",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1556/0" : {
+                "Status" : "Error",
+                "Text" : "[1556] WP4048#1 CH1 level 2",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1557/0" : {
+                "Status" : "Error",
+                "Text" : "[1557] WP4084 #1 CH2 level 2",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1558/0" : {
+                "Status" : "Error",
+                "Text" : "[1558] WP4084#2 CH 1 level 1",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1559/0" : {
+                "Status" : "Error",
+                "Text" : "[1559] WP4084#2 CH 2 level 1",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1561/0" : {
+                "Status" : "Error",
+                "Text" : "[1561] Flight warn.ligh.out",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1564/0" : {
+                "Status" : "Error",
+                "Text" : "[1564] WP4084#2 CH1 level 2",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1565/0" : {
+                "Status" : "Error",
+                "Text" : "[1565] WP4084#2 CH2 level 2",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1568/0" : {
+                "Status" : "Available",
+                "Text" : "[1568] Shadow casting",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1569/0" : {
+                "Status" : "Error",
+                "Text" : "[1569] Flight warn.ligh.def",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1578/0" : {
+                "Status" : "Error",
+                "Text" : "[1578] Stop too long",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1588/0" : {
+                "Status" : "Available",
+                "Text" : "[1588] 4-20mA signal defekt",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1596/0" : {
+                "Status" : "Available",
+                "Text" : "[1596] Time adjustment",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1597/0" : {
+                "Status" : "Error",
+                "Text" : "[1597] Disagreement",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1599/0" : {
+                "Status" : "Error",
+                "Text" : "[1599] Shadow cast. Defect",
+                "IecCategory" : "OUTOFENVIRONMENTALSPECIFICATION",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1602/0" : {
+                "Status" : "Available",
+                "Text" : "[1602] Freq.conv.temp.low",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1644/0" : {
+                "Status" : "Error",
+                "Text" : "[1644] Freq.conv.<>parallel",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1686/0" : {
+                "Status" : "Error",
+                "Text" : "[1686] Converter<>setpoint",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1687/0" : {
+                "Status" : "Error",
+                "Text" : "[1687] Converter<>power",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1688/0" : {
+                "Status" : "Error",
+                "Text" : "[1688] No Power",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1713/0" : {
+                "Status" : "Available",
+                "Text" : "[1713] (R) bearing temp. ",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1714/0" : {
+                "Status" : "Error",
+                "Text" : "[1714] (R) bear. temp. Stop",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1715/0" : {
+                "Status" : "Error",
+                "Text" : "[1715] 4-20mA Signal Stop",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1722/0" : {
+                "Status" : "Error",
+                "Text" : "[1722] Slave 2 Watchdog",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1725/0" : {
+                "Status" : "Error",
+                "Text" : "[1725] WP3x00 Watchdog",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1726/0" : {
+                "Status" : "Error",
+                "Text" : "[1726] WP3x00 manual reboot",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1731/0" : {
+                "Status" : "Available",
+                "Text" : "[1731] Filter 2 Reset",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1732/0" : {
+                "Status" : "Available",
+                "Text" : "[1732] Filter 2 Reset",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1733/0" : {
+                "Status" : "Available",
+                "Text" : "[1733] High frq. vib.#1 CH1",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1734/0" : {
+                "Status" : "Available",
+                "Text" : "[1734] High frq. vib.#1 CH2",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1742/0" : {
+                "Status" : "Available",
+                "Text" : "[1742] Customer lang.chksum",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1748/0" : {
+                "Status" : "Available",
+                "Text" : "[1748] High frq. vib.#2 CH1",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1749/0" : {
+                "Status" : "Available",
+                "Text" : "[1749] High frq. vib.#2 CH2",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1754/0" : {
+                "Status" : "Error",
+                "Text" : "[1754] WTG shutdown",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1762/0" : {
+                "Status" : "Available",
+                "Text" : "[1762] UPS Warning ",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1791/0" : {
+                "Status" : "Available",
+                "Text" : "[1791] [P] reduced temp. ",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1792/0" : {
+                "Status" : "Available",
+                "Text" : "[1792] [P] reduced conv.",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1793/0" : {
+                "Status" : "Available",
+                "Text" : "[1793] [P] reduced EU",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1794/0" : {
+                "Status" : "Available",
+                "Text" : "[1794] [P] reduced cosphi",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1799/0" : {
+                "Status" : "Error",
+                "Text" : "[1799] Flight warn. Service",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1833/0" : {
+                "Status" : "Error",
+                "Text" : "[1833] Brake closed",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1905/0" : {
+                "Status" : "Error",
+                "Text" : "[1905] Pitch run away",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1906/0" : {
+                "Status" : "Error",
+                "Text" : "[1906] Pitch endstop 1",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1908/0" : {
+                "Status" : "Error",
+                "Text" : "[1908] Pitch endstop 2",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1909/0" : {
+                "Status" : "Error",
+                "Text" : "[1909] Pitch endstop 3",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1910/0" : {
+                "Status" : "Error",
+                "Text" : "[1910] Pitch ctrl. error 1",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1911/0" : {
+                "Status" : "Error",
+                "Text" : "[1911] Pitch ctrl. error 2",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1912/0" : {
+                "Status" : "Error",
+                "Text" : "[1912] Pitch ctrl. error 3",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1913/0" : {
+                "Status" : "Error",
+                "Text" : "[1913] Pitch(M) 1 rpm high",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1914/0" : {
+                "Status" : "Error",
+                "Text" : "[1914] Pitch(M) 2 rpm high",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1915/0" : {
+                "Status" : "Error",
+                "Text" : "[1915] Pitch(M) 3 rpm high",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1916/0" : {
+                "Status" : "Error",
+                "Text" : "[1916] Th.rel.pitch(M)rot.1",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1917/0" : {
+                "Status" : "Error",
+                "Text" : "[1917] Th.rel.pitch(M)rot.2",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1918/0" : {
+                "Status" : "Error",
+                "Text" : "[1918] Th.rel.pitch(M)rot.3",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1919/0" : {
+                "Status" : "Error",
+                "Text" : "[1919] Pitch 1 too slow",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1920/0" : {
+                "Status" : "Error",
+                "Text" : "[1920] Pitch 2 too slow",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1921/0" : {
+                "Status" : "Error",
+                "Text" : "[1921] Pitch 3 too slow",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1922/0" : {
+                "Status" : "Error",
+                "Text" : "[1922] Pitch setp.<>meas. 1",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1923/0" : {
+                "Status" : "Error",
+                "Text" : "[1923] Pitch setp.<>meas. 2",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode1924/0" : {
+                "Status" : "Error",
+                "Text" : "[1924] Pitch setp.<>meas. 3",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode2022/0" : {
+                "Status" : "Error",
+                "Text" : "[2022] Trafo Temp. Stop",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode2023/0" : {
+                "Status" : "Error",
+                "Text" : "[2023] Medium Voltage off",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode2024/0" : {
+                "Status" : "Available",
+                "Text" : "[2024] [P] reduced. Transformer",
+                "IecCategory" : "PARTIALPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode2121/0" : {
+                "Status" : "Error",
+                "Text" : "[2121] Wrong characteristic",
+                "IecCategory" : "PARTIALPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode2122/0" : {
+                "Status" : "Available",
+                "Text" : "[2122] Time adjust. Error",
+                "IecCategory" : "PARTIALPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode2123/0" : {
+                "Status" : "Error",
+                "Text" : "[2123] Tower torsion",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode2143/0" : {
+                "Status" : "Available",
+                "Text" : "[2143] Parkmast.stop sector",
+                "IecCategory" : "FORCEDOUTAGE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode2174/0" : {
+                "Status" : "Available",
+                "Text" : "[2174] Noise reduct.1 start",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode2175/0" : {
+                "Status" : "Available",
+                "Text" : "[2175] Noise reduct.1 stop",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode2176/0" : {
+                "Status" : "Available",
+                "Text" : "[2176] Noise reduct.2 start",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode2177/0" : {
+                "Status" : "Available",
+                "Text" : "[2177] Noise reduct.2 stop",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode2234/0" : {
+                "Status" : "Available",
+                "Text" : "[2234] Metal scan defect",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5000/0" : {
+                "Status" : "Available",
+                "Text" : "[5000] CAPACITOR 1 IN",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5001/0" : {
+                "Status" : "Available",
+                "Text" : "[5001] CAPACITOR 2 IN",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5002/0" : {
+                "Status" : "Available",
+                "Text" : "[5002] CAPACITOR 3 IN",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5003/0" : {
+                "Status" : "Available",
+                "Text" : "[5003] CAPACITOR 4 IN",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5004/0" : {
+                "Status" : "Available",
+                "Text" : "[5004] CAPACITOR 5 IN",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5005/0" : {
+                "Status" : "Available",
+                "Text" : "[5005] CAPACITOR 6 IN",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5006/0" : {
+                "Status" : "Available",
+                "Text" : "[5006] CAPACITOR 7 IN",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5007/0" : {
+                "Status" : "Available",
+                "Text" : "[5007] CAPACITOR 8 IN",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5008/0" : {
+                "Status" : "Available",
+                "Text" : "[5008] CAPACITOR 9 IN",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5009/0" : {
+                "Status" : "Available",
+                "Text" : "[5009] CAPACITOR 10 IN",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5010/0" : {
+                "Status" : "Available",
+                "Text" : "[5010] CAPACITOR 1 OUT",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5011/0" : {
+                "Status" : "Available",
+                "Text" : "[5011] CAPACITOR 2 OUT",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5012/0" : {
+                "Status" : "Available",
+                "Text" : "[5012] CAPACITOR 3 OUT",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5013/0" : {
+                "Status" : "Available",
+                "Text" : "[5013] CAPACITOR 4 OUT",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5014/0" : {
+                "Status" : "Available",
+                "Text" : "[5014] CAPACITOR 5 OUT",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5015/0" : {
+                "Status" : "Available",
+                "Text" : "[5015] CAPACITOR 6 OUT",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5016/0" : {
+                "Status" : "Available",
+                "Text" : "[5016] CAPACITOR 7 OUT",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5017/0" : {
+                "Status" : "Available",
+                "Text" : "[5017] CAPACITOR 8 OUT",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5018/0" : {
+                "Status" : "Available",
+                "Text" : "[5018] CAPACITOR 9 OUT",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5019/0" : {
+                "Status" : "Available",
+                "Text" : "[5019] CAPACITOR 10 OUT",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5020/0" : {
+                "Status" : "Available",
+                "Text" : "[5020] CAPACITORS OUT",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5021/0" : {
+                "Status" : "Available",
+                "Text" : "[5021] MANUAL RESET",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5022/0" : {
+                "Status" : "Available",
+                "Text" : "[5022] REMOTE RESET",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5023/0" : {
+                "Status" : "Available",
+                "Text" : "[5023] START IN         SEC",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5024/0" : {
+                "Status" : "Available",
+                "Text" : "[5024] FREE-WHEELING G2    ",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5025/0" : {
+                "Status" : "Available",
+                "Text" : "[5025] FREE-WHEELING G1",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5026/0" : {
+                "Status" : "Available",
+                "Text" : "[5026] FREE-WHEELING G2-G2 ",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5027/0" : {
+                "Status" : "Available",
+                "Text" : "[5027] SELECT CUT-IN",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5028/0" : {
+                "Status" : "Available",
+                "Text" : "[5028] CUT-IN G2      ",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5029/0" : {
+                "Status" : "Available",
+                "Text" : "[5029] CUT-IN G1-G2",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5030/0" : {
+                "Status" : "Available",
+                "Text" : "[5030] CUT-IN G1        ",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5031/0" : {
+                "Status" : "Available",
+                "Text" : "[5031] RUNNING G2",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5032/0" : {
+                "Status" : "Available",
+                "Text" : "[5032] RUNNING G1       ",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5033/0" : {
+                "Status" : "Available",
+                "Text" : "[5033] WAIT FORRE-CUT IN",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5034/0" : {
+                "Status" : "Available",
+                "Text" : "[5034] BRAKING ",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5035/0" : {
+                "Status" : "Available",
+                "Text" : "[5035] CUT-IN M2",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5036/0" : {
+                "Status" : "Available",
+                "Text" : "[5036] CUT-IN M1        ",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5037/0" : {
+                "Status" : "Available",
+                "Text" : "[5037] FREE-WHEEL RUN-AWAY",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5038/0" : {
+                "Status" : "Available",
+                "Text" : "[5038] STOPPED",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5039/0" : {
+                "Status" : "Available",
+                "Text" : "[5039] BOOST CUT-IN G1",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5040/0" : {
+                "Status" : "Available",
+                "Text" : "[5040] FREE-WHEELING G1-G1",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5041/0" : {
+                "Status" : "Available",
+                "Text" : "[5041] AUTO CUT-IN M2",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5042/0" : {
+                "Status" : "Available",
+                "Text" : "[5042] SOFT BRAKING P=70",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5043/0" : {
+                "Status" : "Available",
+                "Text" : "[5043] SOFT BRAKING P=88",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5044/0" : {
+                "Status" : "Available",
+                "Text" : "[5044] SOFT R.BRAKING P=88",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5045/0" : {
+                "Status" : "Available",
+                "Text" : "[5045] FAST R.BRAKING P=88",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5046/0" : {
+                "Status" : "Available",
+                "Text" : "[5046] BRKT.>MAX. WAIT.0RPM",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5047/0" : {
+                "Status" : "Available",
+                "Text" : "[5047] 2.TEST PARKING PRESS",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5048/0" : {
+                "Status" : "Available",
+                "Text" : "[5048] PARKING SPOILER  ",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5049/0" : {
+                "Status" : "Available",
+                "Text" : "[5049] BREMS1.TEST PARKING ",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5050/0" : {
+                "Status" : "Available",
+                "Text" : "[5050] EMERGENCY BRAKING",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5051/0" : {
+                "Status" : "Available",
+                "Text" : "[5051] SOFT BRAKING",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5052/0" : {
+                "Status" : "Available",
+                "Text" : "[5052] MECHANICAL BRAKING  ",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5053/0" : {
+                "Status" : "Available",
+                "Text" : "[5053] MECH. BRAKING GRAD. ",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5054/0" : {
+                "Status" : "Available",
+                "Text" : "[5054] PARKING BRAKES",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5055/0" : {
+                "Status" : "Available",
+                "Text" : "[5055] PARKING BRAKES OK  ",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5056/0" : {
+                "Status" : "Available",
+                "Text" : "[5056] RELEASING BRAKES",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5057/0" : {
+                "Status" : "Available",
+                "Text" : "[5057] WAITING FOR 0 RPM   ",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5058/0" : {
+                "Status" : "Available",
+                "Text" : "[5058] SERVICE MODE",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5059/0" : {
+                "Status" : "Available",
+                "Text" : "[5059] SERVICE, REL.BRAKES",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5060/0" : {
+                "Status" : "Available",
+                "Text" : "[5060] SERVICE, CUT-IN M1  ",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5061/0" : {
+                "Status" : "Available",
+                "Text" : "[5061] SERVICE,FREEWHEEL.G1",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5062/0" : {
+                "Status" : "Available",
+                "Text" : "[5062] SERVICE, CUT-IN M2  ",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5063/0" : {
+                "Status" : "Available",
+                "Text" : "[5063] SERVICE,FREEWHEEL.G2",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5064/0" : {
+                "Status" : "Available",
+                "Text" : "[5064] SELF TEST PART NO. 1",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5065/0" : {
+                "Status" : "Available",
+                "Text" : "[5065] SELF TEST PART NO. 2",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5066/0" : {
+                "Status" : "Available",
+                "Text" : "[5066] SELF TEST PART NO. 3",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5067/0" : {
+                "Status" : "Available",
+                "Text" : "[5067] SELF TEST PART NO. 4",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5068/0" : {
+                "Status" : "Available",
+                "Text" : "[5068] CUT-OUT G2",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5069/0" : {
+                "Status" : "Available",
+                "Text" : "[5069] CUT-OUT G1",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5070/0" : {
+                "Status" : "Available",
+                "Text" : "[5070] YAW 0 _>G",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5071/0" : {
+                "Status" : "Available",
+                "Text" : "[5071] YAW XX _>G",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5072/0" : {
+                "Status" : "Available",
+                "Text" : "[5072] AWAIT CUT IN PERMIT",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5073/0" : {
+                "Status" : "Available",
+                "Text" : "[5073] REMOTE START      ",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5074/0" : {
+                "Status" : "Available",
+                "Text" : "[5074] RUNNING ((G2))",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5075/0" : {
+                "Status" : "Available",
+                "Text" : "[5075] TIP (H)(V) 1 TEST",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5076/0" : {
+                "Status" : "Available",
+                "Text" : "[5076] TIP (H)(V) 2 TEST",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5077/0" : {
+                "Status" : "Available",
+                "Text" : "[5077] CUT-IN G1-0-G2",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5078/0" : {
+                "Status" : "Available",
+                "Text" : "[5078] DAYLIGHTSAVING START",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5079/0" : {
+                "Status" : "Available",
+                "Text" : "[5079] DAYLIGHTSSAVING STOP",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5080/0" : {
+                "Status" : "Available",
+                "Text" : "[5080] FAST CUT OUT",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5081/0" : {
+                "Status" : "Error",
+                "Text" : "[5081] 5081",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5082/0" : {
+                "Status" : "Error",
+                "Text" : "[5082] 5082",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5083/0" : {
+                "Status" : "Error",
+                "Text" : "[5083] 5083",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5084/0" : {
+                "Status" : "Error",
+                "Text" : "[5084] 5084",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5085/0" : {
+                "Status" : "Error",
+                "Text" : "[5085] 5085",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5086/0" : {
+                "Status" : "Error",
+                "Text" : "[5086] 5086",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5087/0" : {
+                "Status" : "Error",
+                "Text" : "[5087] 5087",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5088/0" : {
+                "Status" : "Error",
+                "Text" : "[5088] 5088",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5089/0" : {
+                "Status" : "Error",
+                "Text" : "[5089] 5089",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5090/0" : {
+                "Status" : "Error",
+                "Text" : "[5090] 5090",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5091/0" : {
+                "Status" : "Error",
+                "Text" : "[5091] 5091",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5092/0" : {
+                "Status" : "Error",
+                "Text" : "[5092] 5092",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5093/0" : {
+                "Status" : "Error",
+                "Text" : "[5093] 5093",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5094/0" : {
+                "Status" : "Error",
+                "Text" : "[5094] 5094",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5095/0" : {
+                "Status" : "Error",
+                "Text" : "[5095] 5095",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5096/0" : {
+                "Status" : "Error",
+                "Text" : "[5096] 5096",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5097/0" : {
+                "Status" : "Error",
+                "Text" : "[5097] 5097",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5098/0" : {
+                "Status" : "Error",
+                "Text" : "[5098] 5098",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            },
+            "AlarmCode5099/0" : {
+                "Status" : "Error",
+                "Text" : "[5099] 5099",
+                "IecCategory" : "FULLPERFORMANCE",
+                "ComponentName" : "OPERATIONAL AND SAFETY FUNCTIONS"
+            }
+        }
+    },
+    "Description" : "",
+    "Author" : "admin@ge.com",
+    "LastModified" : ISODate("2021-05-12T12:33:19.163Z")
+}
