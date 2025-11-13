@@ -40,4 +40,7 @@ Subject: TURBINE FAULT ESCALATION Internal T007, Clachan Flats - Inverter Fault
 7- GE<br>
 8- Alstom<br>
 
+
+--
+Escalation internal and external
  
