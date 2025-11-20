@@ -85,11 +85,55 @@ AND assetpath IN ('PARK_Areleoch.Gamesa.016',
 'PARK_Lynemouth.Gamesa.006', 'PARK_Lynemouth.Gamesa.013', 'PARK_Lynemouth.Gamesa.002', 
 'PARK_MarkHill.Gamesa.011', 'PARK_MarkHill.Gamesa.023');
 
+delete from fault_handling_robots_events 
+WHERE partition = 1756684800000
+AND assetpath IN ('PARK_Areleoch.Gamesa.037', 'PARK_Areleoch.Gamesa.057');
+
 -- UPDATE cscada_reanalysis_cursor
 -- SET ReloadRequest = ReloadRequest + 1
 -- WHERE AssetPath LIKE 'PARK_Areleoch%'
 -- OR AssetPath LIKE 'PARK_Lynemouth%'
 -- OR AssetPath LIKE 'PARK_MarkHill%'
+
+-- data cleaning for turbines Areleoch 037 and 057
+
+delete from cscada_reanalysis_eventlog
+where startdate >=  '2025-09-27' and startdate < '2025-09-28'
+and assetpath IN  ('PARK_Areleoch.Gamesa.037', 'PARK_Areleoch.Gamesa.057')
+and type IN ('ARSOS')
+
+delete from cscada_commoneventlog
+where utctimestamp >=  '2025-09-27' and utctimestamp < '2025-09-28'
+and assetpath IN ('PARK_Areleoch.Gamesa.037', 'PARK_Areleoch.Gamesa.057')
+and alarmcode1 = 'RequestSTART' and handlerId = 'ARSOS'
+
+
+delete from fault_handling_robots_events 
+WHERE partition = 1756684800000
+AND assetpath IN ('PARK_Areleoch.Gamesa.037', 'PARK_Areleoch.Gamesa.057');
+
+
+
+
+
+
+
+
+delete from cscada_reanalysis_eventlog
+where startdate >=  '2025-09-23' and startdate < '2025-09-24'
+and assetpath IN  ('PARK_Areleoch.Gamesa.016')
+and type IN ('ARSOS')
+
+delete from cscada_commoneventlog
+where utctimestamp >=  '2025-09-23' and utctimestamp < '2025-09-24'
+and assetpath IN ('PARK_Areleoch.Gamesa.016')
+and alarmcode1 = 'RequestSTART' and handlerId = 'ARSOS'
+
+
+delete from fault_handling_robots_events 
+WHERE partition = 1756684800000
+AND assetpath IN ('PARK_Areleoch.Gamesa.016');
+
 
 
 
